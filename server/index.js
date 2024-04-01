@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 // Access the port environment variable or use the default port 3000
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
 app.use(cors());
